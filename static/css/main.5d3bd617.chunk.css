@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "LatoLight";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../../static/media/LatoLatin-Light.02290aae.woff2) format("woff2"),
+    url(../../static/media/LatoLatin-Light.0faa5aeb.woff) format("woff"),
+    url(../../static/media/LatoLatin-Light.0a89f90b.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../../static/media/LatoLatin-Regular.f42ffe0a.woff2) format("woff2"),
+    url(../../static/media/LatoLatin-Regular.ddabf82b.woff) format("woff"),
+    url(../../static/media/LatoLatin-Regular.1a161b4d.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "LatoRegular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*# sourceMappingURL=main.5d3bd617.chunk.css.map*/
